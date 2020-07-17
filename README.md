@@ -8,8 +8,8 @@
 3、安装APP ` bench --site site1.local install-app ebclocal`；  
 
 #### 已解决问题
-1.因国内网络问题`emoji.json`表情文件无法远程加载，改成加载本地json文件；  
-1.解决erpnext单据中大写金额；
+1、因国内网络问题`emoji.json`表情文件无法远程加载，改成加载本地json文件；  
+2、解决erpnext单据中大写金额；
 
 #### License
 
