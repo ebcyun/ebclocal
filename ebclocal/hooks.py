@@ -16,7 +16,7 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/ebclocal/css/ebclocal.css"
-# app_include_js = "/assets/ebclocal/js/ebclocal.js"
+app_include_js = "/assets/ebclocal/js/ebclocal.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/ebclocal/css/ebclocal.css"
@@ -83,13 +83,14 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-#	}
-# }
+doc_events = {
+	"*": {
+        "before_validate": "ebclocal.utils.data.money_in_words_zh_hooks"
+#       "on_update": "method",
+#       "on_cancel": "method",
+#       "on_trash": "method"
+	}
+}
 
 # Scheduled Tasks
 # ---------------
