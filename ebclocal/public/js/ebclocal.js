@@ -8,7 +8,7 @@ frappe.chat.emoji  = function (fn) {
 			resolve(frappe.chat.emojis)
 		}
 		else
-			$.get('/assets/ebc/js/lib/emoji.json', (data) => {
+			$.get('/assets/ebclocal/js/lib/emoji.json', (data) => {
 				frappe.chat.emojis = data;
 
 				if ( fn )
