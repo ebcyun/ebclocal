@@ -83,5 +83,8 @@ __("not like"),
 __("in"),
 __("not in"),
 __("is"),
+__("Views"),
+__("Search"),
+__("Now"),
 
 ]
