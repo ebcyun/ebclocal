@@ -16,7 +16,7 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/ebclocal/css/ebclocal.css"
-app_include_js = "/assets/ebclocal/js/ebclocal.js"
+app_include_js = "assets/js/ebclocal.min.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/ebclocal/css/ebclocal.css"
@@ -28,7 +28,9 @@ app_include_js = "/assets/ebclocal/js/ebclocal.js"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
-
+page_js = {
+	"permission-manager": "public/js/hooks/page/permission_manager.js",
+}
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}

@@ -1,0 +1,16 @@
+{
+	"js/ebclocal.min.js": [
+		"public/js/translation.js",
+		"public/js/ebclocal.js",
+		"public/js/ui/page.js",
+		"public/js/form/controls/link.js",
+		"public/js/form/controls/date_range.js",
+		"public/js/form/controls/dynamic_link.js",
+		"public/js/form/formatters.js",
+		"public/js/lib/datatable/datatable.js",
+		"public/js/lib/gantt/gantt.js",
+		"public/js/lib/charts/charts.js",
+		"public/js/ui/group_by/group_by.html",
+		"public/js/ui/group_by/group_by.js"
+	]
+}
