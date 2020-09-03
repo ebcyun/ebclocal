@@ -1,3 +1,11 @@
+$(document).bind('toolbar_setup', function() {
+	// 日期选择中文
+    frappe.boot.user.language = frappe.boot.lang
+    // 隐藏/删除所有帮助文档
+    // $('.dropdown-help ul li:lt(6)').attr("style","display:none;")
+    // $('.dropdown-help ul li:lt(6)').remove()
+});
+
 // 日历
 var MyCalendar = frappe.views.Calendar.extend({
     setup_options: function(defaults) {
